@@ -97,7 +97,7 @@ function calcularTotal(event) {
 const formulario = document.getElementById("form");
 
 
-formulario.addEventListener("submit", function(event) {
+/* formulario.addEventListener("submit", function(event) {
 
   event.preventDefault();
 
@@ -134,9 +134,9 @@ formulario.addEventListener("submit", function(event) {
     // Evitar que se recargue la página
     event.preventDefault();
     // SI QUISIERA ELIMINAR EL FORMULARIO ADICIONAL
-    /* document.body.removeChild(formularioAdicional); */
+    document.body.removeChild(formularioAdicional); 
   });
-});
+}); */
 
 function estimarValor(año) {
   let entrega = 0;
